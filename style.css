@@ -1,0 +1,56 @@
+html, body{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+body{
+    font-family: monospace;
+}
+
+h1{
+    text-align: center;
+}
+
+.wrapper{
+    font-size: 1.6rem;
+    width: 80%;
+    margin: 30px auto;
+    background-color: rgb(198, 203, 224);
+}
+
+#loading{
+    text-align: center;
+    color: red;
+}
+
+#weather-info{
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#search-input{
+    padding: 10px;
+    border: 2px solid #41C0F2;
+    border-radius: 3px;
+
+}
+
+.btn-submit{
+    padding: 10px;
+    background-color: #fff;
+    border: 2px solid #41C0F2;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn-submit:hover{
+    background-color: #41C0F2;
+    border: 2px solid #000;
+    color: #fff;
+}
