@@ -18,6 +18,10 @@ h1{
     background-color: rgb(198, 203, 224);
 }
 
+.search-bar-wrapper{
+    display: flex;
+}
+
 #loading{
     text-align: center;
     color: red;
