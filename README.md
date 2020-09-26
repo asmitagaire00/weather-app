@@ -7,5 +7,5 @@ Add config.js file in the project directory.
 ```javascript
 export const config = {
     weatherApiKey: 'your_api_key',
-};```
+};
 
