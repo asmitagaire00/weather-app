@@ -11,7 +11,6 @@ function getWeather(){
     const loadingSpinner = document.getElementById("loading");
     const weatherInfoDiv = document.getElementById("weather-info");
     const API_KEY = config.weatherApiKey;
-    console.log(API_KEY);
     let lat = 0;
     let lon = 0; 
 
